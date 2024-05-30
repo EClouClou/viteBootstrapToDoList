@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="eb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./scss/styles.scss">
+    <script type="module" src="./js/main.js"></script>
+    <title>ToDoList</title>
+
+
+  </head>
+  <body class="bg-secondary">
+    <div class="container d-flex flex-column gap-3 pt-5">
+      <form id="test" class="form--add-todo">
+        <div class="d-flex gap-2">
+            <input name="todo_name" class="form-control"/>
+            <button class="btn btn-warning text-white fw-bold">Add</button>
+      </div>
+      </form>
+      <ul class="list-item list-group--todos">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+    </div>
+
+  </body>
+</html>
